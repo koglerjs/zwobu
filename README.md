@@ -30,4 +30,4 @@ The other assumptions of Zwobu:
     * CSS wrapped to be added to the page on load (processed from LESS)
     * Any other text-based resources
 
-These somewhat bizarre decisions (why not request styles separately?) are considered (again) in the [article here](https://koglerjs.com/verbiage/zwobu).  
+These somewhat bizarre decisions (why not request styles separately?) are considered in that [sane article](https://koglerjs.com/verbiage/zwobu).  
