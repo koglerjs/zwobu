@@ -1,0 +1,13 @@
+
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+code {
+	font-size: 1.1em;
+	font-family: monospace;
+	margin : 12px 20px;
+	display: block;
+}

@@ -1,0 +1,10 @@
+RewriteEngine on
+
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://koglerjs.com/$1 [R,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^meta(.*)$
+RewriteRule ^(.*)$ index.html
